@@ -1,0 +1,78 @@
+.ProjectTwo-Page{
+    width: 100%;
+    height: 100%;
+    background-image: url('../..//assets/ConnctifyBackground.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: "Jersey 10 Charted", sans-serif;
+}
+.ProjectTwo-page-top{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+}
+.CallIcon{
+    display: flex;
+    position: relative;
+    min-width: 15%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+}
+.VideoCallIcon{
+    display: flex;
+    position: relative;;
+    min-width: 15%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+}
+.ConnctifyLogo{
+
+    display: flex;
+    position: relative;;
+    min-width: 10%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+}
+.ConnctifyLogo img{
+    width: 70%;
+    min-width: 85%;
+    max-height: 90%;
+    min-height: 75%;
+}
+
+.ProjectTwo-page-message-container{
+    display: flex;
+    position: relative;
+    flex-direction: column ;
+    min-width: 100%;
+    min-height: auto;
+    align-content: space-around;
+    justify-content: center;   
+}
+
+.ProjectTwo-options{
+    display: flex;
+    position: relative;;
+    min-width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.ProjectTwo-options a{
+    font-size: 10px;
+    color:black; 
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
+}

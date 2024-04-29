@@ -1,0 +1,85 @@
+.about-Page{
+    width: 100%;
+    height: 100%;
+    background-image: url('..//..//assets/GrayBackground.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: "Jersey 10 Charted", sans-serif;
+}
+.about-page-top{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 10%; 
+}
+.about-page-body{
+    display: flex;
+    position: fixed;
+    top:10%; 
+    width: 100%;
+    height: 90%;  
+}
+.about-page-message-conrainer{
+    display: flex;
+    position: fixed;
+    flex-direction: column ;
+    width: 100%;
+    height: 50%;
+    margin-top: 08%;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.about-page-experience-message{
+    font-size: 15px;
+    min-width: 20%;
+    height: 37%;
+    margin-left:10%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.about-page-project-button
+{
+    display: flex;
+    width: 85%; 
+    margin-left: 9%;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+}
+.about-page-project-button button{
+    min-width: 43%;
+    height: 37%;
+    background-color:#f9d98d;
+    font-weight: bolder;
+    border-radius: 7% ;
+    border: transparent;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-page-project-button a {
+    min-width: 55%;
+    height: 55%;
+    text-align: center;
+  }
+  .download-cv {
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+  .download-cv a {
+    color: black; 
+    text-decoration: none;
+  }
+  .download-cv svg {
+    font-size: 22px;
+  }

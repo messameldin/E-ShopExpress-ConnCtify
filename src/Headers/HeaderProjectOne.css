@@ -1,0 +1,80 @@
+.ProjectOne-Header{
+    display: flex;
+    position: relative;
+    min-width: 97%;
+    min-height: 105px;
+    font-weight: bolder;
+   
+}
+.Logo-photo img{
+    width: 180%;
+    height: 100%;
+    border-radius: 50%;
+    
+}
+.Logo-photo{
+    display: flex;
+    position: relative;
+    min-width: 4.5%;
+    height: 75%;
+    max-height: 70%;
+    max-width: 75.5%;
+    align-self: center;
+    border-radius: 50%;
+
+}
+.E-ShopExpress{
+  display: flex;
+  position: relative;
+  min-width: 21%;
+  height: 100%;
+  justify-content: start;
+  align-items: center;
+  text-align: start;
+  font-size: 9px;
+  font-weight: bolder;
+
+}
+
+.SearchButton{
+ background-color: transparent;
+ display: flex;
+ position: relative;
+ color: black;
+ min-height: 70%;
+ border: 1px solid black;
+ border-radius: 05px;
+ align-items: center;
+ justify-content: center;
+ font-size: small;
+ font-weight: bold;
+
+}
+
+.E-ShopExpress-SearchBar{
+    display: flex;
+    position: relative;
+    min-width: 40%;
+    width: 53%;
+    height: 50%;
+    top: 25%;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bolder;
+  }
+.SearchBar{
+    justify-content: center;
+    align-items: center;
+    min-height: 30%;
+    height: 40%;
+    min-width: 40%;
+    background-color: transparent;
+    border: solid 1px black;
+    flex: 1;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+

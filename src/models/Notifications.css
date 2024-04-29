@@ -1,0 +1,75 @@
+.Notifications {
+    min-height: 78%;
+    max-height: 60%;
+    width: 99%;
+    overflow-y: auto;
+    background: transparent;
+    font-size: 20px;
+    position: fixed;
+    top: 120px;
+}
+.NotificationContainer {
+    background-color: #a3a3a3; 
+    padding: 8px;
+    margin-bottom: 7px;
+    margin-top: 9px;
+    margin-left: 7px;
+    border-radius: 18px;
+    color: white;
+    font-size: 16px;
+    word-wrap: break-word;
+    min-width: 02.5%; 
+    max-width: 35%;
+    height: auto;
+    padding-left: 15px;
+    font-weight: bold;
+    display: block;
+    clear: both; 
+    float: left;
+}
+
+.notifications-text-box {
+    min-width: 50%;
+    width: 100%;
+    min-height: 41px;
+    top: 95%;
+    left: 0%;
+    position: fixed ;
+    border-radius: 12px;    
+}
+.notifications-text-box input{
+    width: 78.3%;
+    min-width: 77.6%;
+    min-height: 41px;
+    position: fixed;
+    left: 09.5%;
+    border-radius: 12px;
+    border: solid 1px black;
+    padding-left: 02%;
+    background-color: transparent;
+}
+.SendNotificationsButton {
+    cursor: pointer;
+    position: fixed;
+    background-color: transparent;
+    min-width: 10%;
+    width: 6%;
+    border-radius: 10px;
+    min-height: 41px;
+    right: 0%;
+    color:black;
+  }
+.emoticon-container {
+    cursor: pointer;
+    position: fixed;
+    text-align: center;
+    font-size: medium;
+    background-color: transparent;
+    min-width: 9%;
+    width: 9.4%;
+    border-radius: 10px;
+    border: solid 1px black;
+    min-height: 41px;
+    align-content: center;
+    color:black;
+}

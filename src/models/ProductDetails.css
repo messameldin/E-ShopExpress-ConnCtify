@@ -1,0 +1,128 @@
+.product-list-PD{
+  position: fixed;
+  height: 100vh;
+  width:100% ;
+  min-width: 100%;
+  background-image: url('..//assets/GrayBackgroundPageOne.jpg');
+}
+.productdetails-opions a{
+  color:black; 
+  text-decoration: none;
+  font-weight: bolder;
+  text-align: center;
+  font-size: large;
+  margin-left: 7%;
+}
+.productdetails-opions svg{
+font-size: 34px;
+}
+
+.product-item-PD {
+    display: flex;
+    position: relative;
+    top: 10%;
+    width: 100%;
+    min-width: 100%;
+    height: 60%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.left-part{
+  display: flex;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+  top: 30%;
+  width: 40%;
+  margin-right: 5%;
+  height: 65%;
+  min-width: 40%;
+  justify-content: space-between;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 15px;
+}
+.right-part{
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 30%;
+  width: 40%;
+  margin-left: 5%;
+  height: 65%;
+  min-width: 40%;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 1px;
+}
+  .product-image-PD {
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    position: relative ;
+    left: 0%;
+    align-items: center;
+    border-radius: 15px;
+  }
+  .product-name-PD {
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    height: 10%;
+    min-width: 25%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .product-price-PD{
+    color: green;
+    position: relative;
+    min-width: 25%;
+    height: 10%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+  }
+  .product-color-PD {
+    font-style: italic;
+    position: relative;
+    height: 10%;
+    min-width: 25%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+  }
+  .product-description-PD{    
+    position: relative;
+    min-width: 25%;
+    height: 25%;
+    text-wrap: balance;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+  }
+.Order-now-PD{
+    position: relative;
+    min-width: 25%;
+    height: 8%;
+    background-color: #f5d071;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
